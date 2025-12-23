@@ -106,9 +106,9 @@
 
         nums {
             bindings = <
-&kp GRAVE  &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9     &kp NUMBER_0               &kp BACKSLASH
-&kp GLOBE  &hml LSHIFT F1  &hml LCTRL F2  &hml LALT F3  &hml LGUI F4  &kp F5          &trans        &hmr RGUI MINUS  &hml LALT EQUAL  &hmr RALT RCTRL  &hmr RSHIFT RIGHT_BRACKET  &trans
-&trans     &kp F6          &kp F7         &kp F8        &kp F9        &kp F10         &trans        &trans           &trans           &trans           &trans                     &trans
+&kp GRAVE  &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9             &kp NUMBER_0               &kp BACKSLASH
+&kp GLOBE  &hml LSHIFT F1  &hml LCTRL F2  &hml LALT F3  &hml LGUI F4  &kp F5          &trans        &hmr RGUI MINUS  &hml LALT EQUAL  &hmr LEFT_BRACKET RCTRL  &hmr RSHIFT RIGHT_BRACKET  &trans
+&trans     &kp F6          &kp F7         &kp F8        &kp F9        &kp F10         &trans        &trans           &trans           &trans                   &trans                     &trans
                                           &kp F10       &kp F11       &none           &none         &trans           &trans
             >;
         };
