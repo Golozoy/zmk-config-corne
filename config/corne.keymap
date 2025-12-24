@@ -97,17 +97,17 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q          &kp W         &kp E          &kp R         &kp T           &kp Y         &kp U                &kp I              &kp O         &kp P             &kp BACKSPACE
-&kp TAB     &hml LSHIFT A  &hml LCTRL S  &hml LALT D    &hml LGUI F   &kp G           &kp H         &hmr RGUI J          &hmr RALT K        &hmr RCTRL L  &hmr RSHIFT SEMI  &kp APOS
-&kp GLOBE   &kp Z          &kp X         &kp C          &kp V         &kp B           &kp N         &kp M                &kp COMMA          &kp DOT       &kp FSLH          &kp DELETE
-                                         &kp BACKSLASH  &tkl 3 SPACE  &tkl 1 SPACE    &tkr 2 ENTER  &tkr 4 LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp ESCAPE                            &kp Q          &kp W         &kp E          &kp R         &kp T           &kp Y         &kp U                &kp I              &kp O         &kp P             &kp BACKSPACE
+&kp TAB                               &hml LSHIFT A  &hml LCTRL S  &hml LALT D    &hml LGUI F   &kp G           &kp H         &hmr RGUI J          &hmr RALT K        &hmr RCTRL L  &hmr RSHIFT SEMI  &kp APOS
+&kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp Z          &kp X         &kp C          &kp V         &kp B           &kp N         &kp M                &kp COMMA          &kp DOT       &kp FSLH          &kp DELETE
+                                                                   &kp BACKSLASH  &tkl 3 SPACE  &tkl 1 SPACE    &tkr 2 ENTER  &tkr 4 LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
         nums {
             bindings = <
 &kp GRAVE  &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9             &kp NUMBER_0               &kp BACKSLASH
-&kp GLOBE  &hml LSHIFT F1  &hml LCTRL F2  &hml LALT F3  &hml LGUI F4  &kp F5          &trans        &hmr RGUI MINUS  &hml LALT EQUAL  &hmr RCTRL LEFT_BRACKET  &hmr RSHIFT RIGHT_BRACKET  &trans
+&trans     &hml LSHIFT F1  &hml LCTRL F2  &hml LALT F3  &hml LGUI F4  &kp F5          &trans        &hmr RGUI MINUS  &hml LALT EQUAL  &hmr RCTRL LEFT_BRACKET  &hmr RSHIFT RIGHT_BRACKET  &trans
 &trans     &kp F6          &kp F7         &kp F8        &kp F9        &kp F10         &trans        &trans           &trans           &trans                   &trans                     &trans
                                           &kp F10       &kp F11       &none           &none         &trans           &trans
             >;
