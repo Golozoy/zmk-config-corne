@@ -100,7 +100,7 @@
 &kp ESCAPE      &kp Q          &kp W         &kp E          &kp R         &kp T           &kp Y         &kp U                &kp I              &kp O         &kp P             &kp BACKSPACE
 &kp TAB         &hml LSHIFT A  &hml LCTRL S  &hml LALT D    &hml LGUI F   &kp G           &kp H         &hmr RGUI J          &hmr RALT K        &hmr RCTRL L  &hmr RSHIFT SEMI  &kp APOS
 &kp LEFT_SHIFT  &kp Z          &kp X         &kp C          &kp V         &kp B           &kp N         &kp M                &kp COMMA          &kp DOT       &kp FSLH          &kp DELETE
-                                             &kp BACKSLASH  &tkl 4 LCTRL  &tkl 1 SPACE    &tkr 2 ENTER  &tkr 3 LEFT_BRACKET  &kp RIGHT_BRACKET
+                                             &kp BACKSLASH  &tkl 3 LCTRL  &tkl 1 SPACE    &tkr 2 ENTER  &tkr 4 LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
